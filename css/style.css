@@ -1,0 +1,589 @@
+header.header video {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+header.header .overlay {
+    background-color: #dcdde1b2;
+}
+
+@font-face {
+    font-family: sky-bold;
+    src: url(../fonts/sky-bold.ttf);
+}
+
+body {
+    direction: rtl;
+    font-family: sky-bold;
+}
+
+header.header .overlay .header-text h3{
+    font-size: 35px;
+    margin-bottom: 40px;
+    line-height: 40px;
+}
+
+header.header .overlay .header-text p {
+    font-size: 18px;
+    color: rgb(44, 44, 44);
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+header.header .overlay .header-text {
+    margin-top: 7rem;
+}
+
+header.header .overlay .header-text .buttons {
+    border-radius: 0;
+    font-family: sky-bold;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 8px 22px;
+}
+
+header.header .overlay .header-text .btn:first-of-type{
+    background-color: rgb(32, 156, 238);
+    color: #ffffff;
+    margin-left: 15px;
+    font-family: sky-bold;
+}
+
+header.header .overlay .header-text .btn:last-of-type{
+    background-color: transparent;
+    color: rgb(13, 79, 122);
+    font-family: sky-bold;
+}
+
+header.header .overlay .header-text .btn:last-of-type:hover{
+    background-color: rgb(32, 156, 238);
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+header.header .overlay .header-text a {
+    text-decoration: none;
+    color: rgb(19, 19, 19);
+}
+
+header.header .overlay .product-img {
+    position: relative; 
+    margin-bottom: 30px;
+}
+
+header.header .overlay .product-img img.label {
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+
+header.header .overlay .product-img p {
+    position: absolute;
+    top: -25px;
+    right:4px;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+}
+
+header.header .overlay .product-img p span {
+    display: block;
+}
+
+header.header .overlay .navbar {
+    margin-bottom: 25px;
+}
+
+section.features .title h3 {
+    font-size: 36px;
+    color: orange;
+    line-height: 120px;
+}
+
+section.features {
+    padding: 25px 0;
+    background-color: #ffffff;
+}
+
+section.features .title:after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    width: 150px;
+    height: 2px;
+    background-color: rgb(11, 155, 212);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+section.features .title{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+section.features .feature {
+    padding: 70px 0;
+    border-bottom: 3px solid #eeeeee;
+}
+
+section.features .feature .media-body h5 {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(6, 156, 141);
+    border-right: 2px solid rgb(6, 156, 141);
+    padding: 0px 20px;
+    margin-bottom: 50px;
+}
+
+section.features .feature .media-body p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #555555;
+}
+
+section.features .feature .media img {
+    margin: 0 4rem;
+}
+
+section.features .feature .media .media-body {
+    margin-bottom: 50px;
+} 
+
+section.features .feature:nth-of-type(even) {
+    text-align: left;
+}
+
+section.features .feature:nth-of-type(even) .media .media-body h5 {
+    border-right: 0px;
+    border-left: 2px solid rgb(6, 156, 141);
+}
+
+section.prices {
+    padding: 55px 0;
+    background-color: #f7f7f7;
+}
+
+section.prices .title h3 {
+    font-size: 30px;
+    color: orange;
+}
+
+section.prices .plan {
+    background-color: #ffffff;
+    color: #a9a9ab;
+    border: 2px solid #ededed;
+    padding-top: 15px;
+    margin-top: 100px;
+}
+
+section.prices .plan p {
+    font-size: 18px;
+    color: rgb(5, 102, 167);
+}
+
+section.prices .plan h3 {
+    font-size: 50px;
+    margin: 30px auto;
+}
+
+section.prices .plan h3 span {
+    font-size: 15px;
+    vertical-align: top;
+}
+
+section.prices .plan ul li {
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+section.prices .plan ul {
+    padding: 0;
+    margin: 0;
+}
+
+section.prices .plan button {
+    border: 1px solid rgb(14, 108, 151);
+    background-color: white;
+    color: rgb(14, 108, 151);
+    font-family: sky-bold;
+    border-radius: 0px;
+    padding: .5rem 1.75rem;
+}
+
+section.prices .plan button:hover {
+    background-color: rgb(14, 108, 151);
+    color: white;
+    transition: 0.5s;
+}
+
+section.prices .plan.popular {
+    margin-top: 55px;
+    padding-top: 60px;
+}
+
+section.prices .plan.popular button {
+    background-color: rgb(14, 108, 151);
+    color: white;
+    border: 1px solid  rgb(14, 108, 151);
+}
+
+section.prices .plan.popular button:hover {
+    background-color: white;
+    color:  rgb(14, 108, 151);
+}
+
+section.faq {
+    background-color: #ffffff;
+    padding: 55px 0;
+}
+
+
+section.faq .title h3 {
+    font-size: 30px;
+    color: orange;
+}
+
+section.faq .card {
+    margin-bottom: 15px;
+    border: 1px solid #ebebeb;
+    border-radius: 0px;
+}
+
+section.faq .card-header {
+    background-color: transparent;
+    border-bottom: 0px;
+}
+
+section.faq .card .card-header h5 a {
+    font-size: 18px;
+    color: #555555;
+    display: block;
+    font-weight: bold;
+    position: relative;
+}
+
+section.faq .card .card-header h5 a i {
+    position: absolute;
+    top: 2px;
+    left: 5px;
+}
+
+section.faq .card .card-block {
+    font-size: 15px;
+    color: #363636;
+    line-height: 24px;
+    padding: 0 1.25rem 1.25rem;
+    text-align: justify;
+}
+
+section.faq .title {
+    margin-bottom: 50px;
+}
+
+section.faq .card .card-header h5 a:hover,
+section.faq .card .card-header h5 a:focus {
+    text-decoration: none;
+}
+
+section.faq .card .card-header h5 a[aria-expanded="true"] i:before {
+    content: "\f106";
+}  
+
+section.video {
+    min-height: 100vh;
+    position: relative;
+}
+
+
+section.video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+section.video .overlay {
+    background-color: rgba(128, 128, 128, 0.377);
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+
+section.video button {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    font-size: 30px;
+    font-family: sky-bold;
+    color: #ffffff;
+    background-color: transparent;
+    border: 0px;
+    transform: translate(50%, -50%);
+}
+
+
+section.video button i {
+    display: block;
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    line-height: 90px;
+}
+
+section.contact {
+    background-color: black;
+    padding: 60px 0 40px;
+}
+
+section.contact .title {
+    font-size: 18px;
+    line-height: 50px;
+    color: white;
+}
+section.contact .contact-us .title h4 {
+    font-size: 22px;
+    line-height: 50px;
+    color: white;
+}
+
+section.contact .contact-us form .form-group {
+    margin-bottom: 6px;
+}
+
+section.contact .contact-us form .form-group input,
+section.contact .contact-us form .form-group textarea {
+    border-radius: 3px;
+    background-color: rgb(80, 80, 80);
+    font-size: 18px;
+    font-family: sky-bold;
+    color: lightsteelblue;
+    line-height: 35px;
+}
+
+section.contact .contact-us form button {
+    font-size: 16px;
+    font-family: sky-bold;
+    color: #ffffff;
+    background-color: rgba(255, 166, 0, 0.863);
+    padding: 7px 24px;
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px rgb(156, 154, 154);
+}
+
+section.contact .contact-us form .error {
+    color: red;
+}
+
+section.contact .other-products .title h4 {
+    font-size: 22px;
+    line-height: 50px;
+    color: white;
+}
+
+section.contact .other-products .media .media-body h5 {
+    font-size: 18px;
+    color: orange;
+    margin-bottom: 15px;
+}
+
+section.contact .other-products .media .media-body p {
+    font-size: 15px;
+    line-height: 20px;
+    color: rgb(214, 213, 213);
+    text-align: justify;
+}
+
+section.contact .other-products .media {
+    margin-bottom: 5px;
+}
+
+section.contact .other-products .media img {
+    margin-left: 20px;
+}
+
+footer {
+    background-color:rgb(22, 21, 21);
+    line-height: 80px;
+}
+
+footer ul li a {
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    text-align: center;
+    display: block;
+    background-color: gray;
+    color: black;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+/*
+
+footer ul li {
+    margin: 0;
+    padding: 0;
+}
+
+*/ 
+
+footer ul li {
+    margin-left: 10px;
+}
+
+footer ul li a:hover {
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    transition: 0.3s ease;
+}
+
+footer .copyright p {
+    font-size: 14px;
+    color: whitesmoke;
+    text-align: left;
+}
+
+footer .copyright p a {
+    text-decoration: none;
+    color: orange;
+}
+
+
+footer .copyright p a:hover {
+    color: orangered;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+/** التوافق مع الشاشات الصغيرة **/
+
+@media(max-width: 900px) {
+    header {
+        overflow-x: hidden;
+    }
+
+    .product-img img:first-of-type {
+        width: 120%; 
+    }
+
+    .buttons {
+        margin-bottom: 50px;
+    }
+
+    section.features .feature .media img {
+        margin: 0 2rem;
+    }
+
+    section.contact {
+        padding: 210px 0 40px;
+    }
+
+    section.video .overlay {
+        height: 134.3%;
+    }
+
+    .form-group {
+        margin-top: 20px;
+    }
+
+    #commentForm {
+        margin-top: -7px;
+    }
+
+    section.contact .contact-us form button {
+        margin-top: 12px;
+    }
+
+    section.contact .other-products .media img {
+        margin-left: 20px;
+        border-radius: 5px;
+    }
+}
+
+@media(max-width: 1024px){
+    article, aside, footer, header, nav, section {
+        display: block;
+        overflow-x: hidden;
+    }    
+}
+
+@media(max-width: 768px) {
+    .product-img img:first-of-type {
+        width: 100%;
+    }
+
+    section.prices .plan.popular {
+        margin-top: 59px;
+        padding-top: 30px;
+    }
+
+    section.video .overlay {
+        height: 100%;
+    }
+
+    section.contact {
+        padding: 50px 40px;
+    }
+    
+section.video {
+    display: none;
+    }
+}
+
+@media(max-width: 320px) {
+    footer .copyright p {
+        text-align: center;
+    }
+
+    section.contact .other-products .title h4 {
+        line-height: 100px;
+    }
+
+    section.contact .other-products .media .media-body p {
+        text-align: right;
+    }
+
+    section.features .feature .media img {
+        display: none;
+    }
+
+    header.header .overlay .product-img img.label {
+        display: none;
+    }
+
+    header.header .overlay .product-img p {
+        display: none;
+    }
+
+    header.header .overlay .header-text .buttons {
+        text-align: center;
+    }
+
+    .col-md-7 {
+        margin-top: -100px;
+    }
+    
+    section.features .feature {
+        padding: 10px 0;
+        border-bottom: 3px solid #eeeeee;
+    }
+
+    section.features {
+        padding: 0 0;
+        background-color: #ffffff;
+    }
+}
